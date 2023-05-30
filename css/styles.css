@@ -19,6 +19,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   color: #2e2f42;
+  text-transform: uppercase;
 }
 .logo-span {
   color: #4d5ae5;
@@ -31,6 +32,9 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.header-menu-item:active {
+  color: #404bbf;
+}
 
 .header-soc-link {
   font-weight: 400;
@@ -39,7 +43,9 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+.header-soc-link:active {
+  color: #404bbf;
+}
 /* MAIN */
 .hero {
   background-color: #2e2f42;
@@ -50,6 +56,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 .hero-btn {
   font-family: inherit;
@@ -60,8 +67,11 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  align-items: center;
 }
-
+.hero-btn:hover {
+  background-color: #404bbf;
+}
 .main-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -74,11 +84,25 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 .activity-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+}
+
+.team-subtitle,
+.team-text {
+  text-align: center;
 }
 .footer {
   background-color: #2e2f42;
@@ -90,6 +114,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #f4f4fd;
+  text-transform: uppercase;
 }
 
 .footer-text {
