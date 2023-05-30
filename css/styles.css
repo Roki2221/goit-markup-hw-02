@@ -19,7 +19,7 @@ body {
 
 /* HEADER */
 
-.header-logo {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -28,7 +28,7 @@ body {
   color: #4d5ae5;
   text-transform: uppercase;
 }
-.logo-span {
+.header-logo {
   color: var(--title-text-color);
 }
 
@@ -43,7 +43,7 @@ body {
   color: var(--interactive-color);
 }
 
-.header-menu-item:active {
+.header-menu-item:focus {
   color: var(--interactive-color);
 }
 
@@ -60,7 +60,7 @@ body {
 .header-soc-link:hover {
   color: var(--interactive-color);
 }
-.header-soc-link:active {
+.header-soc-link:focus {
   color: var(--interactive-color);
 }
 /* MAIN */
@@ -88,7 +88,7 @@ body {
 .hero-btn:hover {
   background-color: var(--interactive-color);
 }
-.hero-btn:active {
+.hero-btn:focus {
   background-color: var(--interactive-color);
 }
 .main-subtitle {
@@ -133,13 +133,7 @@ body {
   background-color: var(--title-text-color);
 }
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #4d5ae5;
-  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-text {
