@@ -2,12 +2,16 @@
 :root {
   --interactive-color: #404bbf;
   --title-text-color: #2e2f42;
+  --main-color: #434455;
+  --white-text-color: #ffffff;
+  --footer-text-color: #f4f4fd;
+  --logo-blue: #4d5ae5;
 }
 
 body {
   font-family: Roboto, sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--main-color);
+  background-color: var(--white-text-color);
 }
 
 .link {
@@ -25,7 +29,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: var(--logo-blue);
   text-transform: uppercase;
 }
 .header-logo {
@@ -51,11 +55,10 @@ body {
   font-style: normal;
 }
 .header-soc-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-color);
 }
 .header-soc-link:hover {
   color: var(--interactive-color);
@@ -72,7 +75,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-text-color);
   text-align: center;
 }
 .hero-btn {
@@ -81,8 +84,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--white-text-color);
+  background-color: var(--logo-blue);
   cursor: pointer;
 }
 .hero-btn:hover {
@@ -102,7 +105,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-color);
 }
 
 .main-title {
@@ -121,10 +124,10 @@ body {
   letter-spacing: 0.02em;
 }
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--footer-text-color);
 }
 .team-list-item {
-  background-color: #ffffff;
+  background-color: var(--white-text-color);
 }
 .team-subtitle,
 .team-text {
@@ -134,14 +137,14 @@ body {
   background-color: var(--title-text-color);
 }
 .footer-logo {
-  color: #f4f4fd;
+  color: var(--footer-text-color);
 }
 
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--footer-text-color);
 }
 
 /* PORTFOLIO */
@@ -157,18 +160,18 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--logo-blue);
+  background-color: var(--footer-text-color);
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
 }
 
 .portfolio-btn:hover {
-  color: #ffffff;
+  color: var(--white-text-color);
   background-color: var(--interactive-color);
 }
 
 .portfolio-btn:focus {
-  color: #ffffff;
+  color: var(--white-text-color);
   background-color: var(--interactive-color);
 }
